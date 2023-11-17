@@ -14,6 +14,8 @@
 		044A03F82AFDB818000537DF /* MobComp_MagicTheGathering_ElyoraDiorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A03F72AFDB818000537DF /* MobComp_MagicTheGathering_ElyoraDiorTests.swift */; };
 		044A04022AFDB818000537DF /* MobComp_MagicTheGathering_ElyoraDiorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A04012AFDB818000537DF /* MobComp_MagicTheGathering_ElyoraDiorUITests.swift */; };
 		044A04042AFDB818000537DF /* MobComp_MagicTheGathering_ElyoraDiorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A04032AFDB818000537DF /* MobComp_MagicTheGathering_ElyoraDiorUITestsLaunchTests.swift */; };
+		044A04112AFDBB00000537DF /* WOT-Scryfall.json in Resources */ = {isa = PBXBuildFile; fileRef = 044A04102AFDBB00000537DF /* WOT-Scryfall.json */; };
+		044A04132AFDBCFF000537DF /* MTGCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A04122AFDBCFF000537DF /* MTGCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		044A03FD2AFDB818000537DF /* MobComp_MagicTheGathering_ElyoraDiorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobComp_MagicTheGathering_ElyoraDiorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044A04012AFDB818000537DF /* MobComp_MagicTheGathering_ElyoraDiorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobComp_MagicTheGathering_ElyoraDiorUITests.swift; sourceTree = "<group>"; };
 		044A04032AFDB818000537DF /* MobComp_MagicTheGathering_ElyoraDiorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobComp_MagicTheGathering_ElyoraDiorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		044A04102AFDBB00000537DF /* WOT-Scryfall.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "WOT-Scryfall.json"; path = "../../../Downloads/WOT-Scryfall.json"; sourceTree = "<group>"; };
+		044A04122AFDBCFF000537DF /* MTGCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 			children = (
 				044A03E62AFDB816000537DF /* MobComp_MagicTheGathering_ElyoraDiorApp.swift */,
 				044A03E82AFDB816000537DF /* ContentView.swift */,
+				044A04102AFDBB00000537DF /* WOT-Scryfall.json */,
 				044A03EA2AFDB818000537DF /* Assets.xcassets */,
 				044A03EC2AFDB818000537DF /* Preview Content */,
+				044A04122AFDBCFF000537DF /* MTGCard.swift */,
 			);
 			path = MobComp_MagicTheGathering_ElyoraDior;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				044A03EE2AFDB818000537DF /* Preview Assets.xcassets in Resources */,
 				044A03EB2AFDB818000537DF /* Assets.xcassets in Resources */,
+				044A04112AFDBB00000537DF /* WOT-Scryfall.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044A03E92AFDB816000537DF /* ContentView.swift in Sources */,
+				044A04132AFDBCFF000537DF /* MTGCard.swift in Sources */,
 				044A03E72AFDB816000537DF /* MobComp_MagicTheGathering_ElyoraDiorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
